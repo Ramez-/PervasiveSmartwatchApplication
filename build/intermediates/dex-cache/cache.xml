@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ramezelbaroudy/Desktop/ARFFNew/app/libs/weka-3.6.6-android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d5bef25d824a9a782e887bf2748df5a6e6788b1f">
+        <dex dex="/Users/ramezelbaroudy/Desktop/ARFFNew/app/build/intermediates/pre-dexed/debug/weka-3.6.6-android_b813e0fd1a0b77a4043165756c4b528b5ba51803.jar" />
+    </item>
+
+</items>
