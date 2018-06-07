@@ -112,7 +112,6 @@ public class ArffRecorderService extends Service implements SensorEventListener 
                 intent.putExtra("usersArray", users.usersHistoryDisplayList);
                 intent.putExtra("roomStatus", users.theRoomCondition);
                 sendBroadcast(intent);
-                System.out.println("still printing");
             }
         }, 5000, 3000);
     }
