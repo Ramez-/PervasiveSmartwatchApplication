@@ -30,7 +30,7 @@ public class OtherUser {
     // removing element from history when new element added, after the one minute window
     public void addRemoveHistory(ClassLabel doing) {
 
-        if (doing != null) { // this is just work around still need to be implemented properly
+        if (doing != null) {
             history.add(doing);
             history.remove();
         }
@@ -59,7 +59,7 @@ public class OtherUser {
         }
         int maximumvalue = Math.max(numberOfSitting, Math.max(numberOfStanding, Math.max(numberOfnull, numberOfWalking)));
         if (maximumvalue == numberOfSitting) {
-            currentRole = UserRole.listener; // to be tested still need to show it in the other class
+            currentRole = UserRole.listener; 
             return "Sitting";
         }
         if (maximumvalue == numberOfWalking && numberOfSitting > 0) {
